@@ -22,7 +22,7 @@
   - Automated local regression test suite: **16 of 16 tests passing (100%) in 0.037 seconds**.
 
 #### Referenced Project Artifacts
-- Source repository: `/Users/sachinsahebraojadhav/my intern/Autonomous-Driving-Perception-Stack`
+- Source repository: `Autonomous-Driving-Perception-Stack`
 - Benchmark metrics: `metrics_eval.json`
 - Test suite: `tests/test_perception_stack.py`
 
@@ -254,7 +254,7 @@
   3. *NVIDIA TensorRT*: Blocked by macOS non-CUDA hardware platform; evaluated using **alternative performance benchmarks** on Apple Silicon MPS (9.38 ms) and multi-threaded ONNX Runtime CPU (39.13 ms), rather than claiming mitigation or equivalent execution of TensorRT.
   4. *Closed-Loop Vehicle Control*: Prototype produces perception outputs (tracks, lane curves, proximity alerts); vehicle actuation (throttle/steering commands) was not implemented.
 - **Automated Local Regression Test Suite**:
-  - Created [`tests/test_perception_stack.py`](file:///Users/sachinsahebraojadhav/my%20intern/Autonomous-Driving-Perception-Stack/tests/test_perception_stack.py).
+  - Created [`tests/test_perception_stack.py`](tests/test_perception_stack.py).
   - Built using Python's standard-library `unittest` framework.
   - **16 of 16 tests passing (100%) in 0.037 seconds**, validating calibration math, IoU calculations, depth heuristics, IPM matrices, letterbox unscaling math, and atomic metrics serialization.
 - **Future Engineering Roadmap**:

@@ -1,7 +1,7 @@
 # Engineering Self-Reflection: Autonomous Driving Perception Stack (AIML-04)
 
 - **Project**: Nexvia Project 2 — Autonomous Driving Perception Stack
-- **Repository**: `/Users/sachinsahebraojadhav/my intern/Autonomous-Driving-Perception-Stack`
+- **Repository**: `Autonomous-Driving-Perception-Stack`
 - **Hardware Platform**: Apple MacBook Air M1 (Apple Silicon arm64, 8 GB Unified Memory, macOS 26.6.2)
 - **Author**: Nexvia AIML Intern
 - **Evaluation Status**: Final Technical Reflection

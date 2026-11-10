@@ -100,7 +100,7 @@ def run_bytetrack_video(
         output_video_path = project_dir / "tracked_output.mp4"
 
     # 3. Model setup - strict local model verification (no downloads allowed)
-    model_path = Path("/Users/sachinsahebraojadhav/my intern/Autonomous-Driving-Perception-Stack/yolov8n.pt")
+    model_path = project_dir / "yolov8n.pt"
     if not model_path.is_file():
         raise FileNotFoundError(
             f"Required local YOLO weights not found at: {model_path}. "
